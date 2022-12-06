@@ -1,0 +1,109 @@
+# *IDEA-CGiLaboratory-RE1.0*
+
+[^Exegesis]: The laboratory of CGi tools for IDEA, author by Pierre. ATTENTION THIS REPO USING GNU AFFERO GENERAL PUBLIC LICENSE.
+
+
+
+## DevOps-for-Foundry
+
+[^Exegesis]: 
+
+
+
+
+## DevOps-for-Maya
+
+[^Exegesis]: 
+
+
+
+## DevOps-for-SideFX
+
+[^Exegesis]: 
+
+1. Copy the **.packages** folder to $HOME/houdini19.0 and rename it to **packages**.
+
+2. Configure these environment value in **user_variables.json**:
+
+   ***__INFO_ARTIST:***
+
+   ```json
+   { "artist": "Pierre" },
+   { "affiliate": "IDEA" },
+   { "computer_user": "Guobao Luo" },
+   { "computer_name": "PafassionLab-01" },
+   ```
+
+   ***__INFO_CUSTOM_DIR:***
+
+   ```json
+   { "temp_dir": "D:/HoudiniCache" },
+   { "LocalRepo": "D:/HuaweiCloud" },
+   { "CodeHub": "Z:/Repositories/CodeHub" },
+   { "GitHub": "Z:/Repositories/GitHub" },
+   { "GitLab": "Z:/Repositories/GitLab" },
+   { "MY_PROJECT_DIR": "D:/HoudiniProjects" },
+   { "MY_WORKING_DIR": "X:/Pierre_Projects" },
+   ```
+
+   ***__INFO_ACES_DENOISER:***
+
+   ```json
+   { "HOUDINI_NVIDIA_OPTIX_DSO_PATH": "$CodeHub/IDEA-OptiX-Denoiser/optixlibs-5.1.1" },
+   { "OCIO": "$CodeHub/IDEA-ACES-OpenColorIO/ACES-1.2/config.ocio" },
+   ```
+
+   ***__INFO_EXTRA_SWS:***
+
+   ```json
+   { "EDITOR": "C:/Program Files/Microsoft VS Code/Code.exe" },
+   { "Djv_view": "C:/Program Files/DJV2/bin/djv.exe" },
+   { "Shotgun_RV": "C:/Program Files/Shotgun/RV-2021.0.1/bin/rv.exe" },
+   { "IM_Display": "C:/Program Files/ImageMagick-7.1.0-Q16-HDRI/imdisplay.exe" },
+   { "Photoshop": "C:/Program Files/Adobe/Adobe Photoshop 2020/Photoshop.exe" },
+   ```
+
+   ***__INFO_3RD_BIZLABS:***
+
+   ```json
+   { "BIZLABS": "$CodeHub/Commercial-Laboratories-Fetch" }
+   ```
+
+3. Copy the **houdini** folder to $HFS.
+
+4. Restart Houdini FX.
+
+   
+
+## DevOps-for-Programmer
+
+[^Exegesis]: 
+
+
+
+## Archived-for-BisynesDev
+
+[^Exegesis]: 
+
+
+
+## CGi_RD_Pipeline_for_Advertisement
+
+[^Exegesis]: 
+
+- Houdini
+  - PilotPDG
+  - Solaris
+  - Houdini Engine
+  - Hython
+  - VEX/VOP
+- OpenCL
+- Python 3.X
+- Deadline
+- Render
+  - Karma
+  - Redshift
+- Markdown
+- XML
+- JSON
+- Unreal Engine
